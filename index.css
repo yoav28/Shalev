@@ -286,6 +286,7 @@ button {
 @media (max-width: 1000px) {
     .page-container {
         width: 95%;
+        margin-inline: auto;
     }
 
     .section, .contact {
