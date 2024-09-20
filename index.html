@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="/assets/icon.ico" type="image/png">
+        <link rel="stylesheet" href="index.css">
+        <script defer src="index.js"></script>
+        <title>שלו יחסי ציבור ואסטרטגיה</title>
+    </head>
+
+    <body>
+        <img class="logo-mobile" src="/assets/full-logo.png" alt="לוגו">
+
+        <div class="navigation">
+            <img class="logo" src="/assets/full-logo.png" alt="לוגו" onclick="scrollToTop()">
+            <span class="nav-item" onclick="scrollToSection('about')">אודות</span>
+            <span class="nav-item" onclick="scrollToSection('crises')">ניהול משברים</span>
+            <span class="nav-item" onclick="scrollToSection('conflicts')">ניהול מאבקים</span>
+            <span class="nav-item" onclick="scrollToSection('clients')">לקוחות</span>
+            <span class="nav-item" onclick="scrollToSection('publicises')">פרסומים</span>
+            <span class="nav-item" onclick="scrollToSection('contact')">צור קשר</span>
+        </div>
+
+        <div class="page-container" id="page-container">
+            <div class="header">
+                <h1 class="main-title">שלו יחסי ציבור ואסטרטגיה</h1>
+                <h3 class="sub-title">שירותי דוברות, ייעוץ תקשורתי, ניהול מאבקים ציבוריים וניהול משברים</h3>
+            </div>
+
+            <div class="sections" id="sections"></div>
+
+            <div class="contact" id="section-contact"></div>
+        </div>
+    </body>
+</html>
