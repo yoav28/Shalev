@@ -218,34 +218,7 @@ const raw_data = {
         "contact": {
             "title": "צור קשר",
             "phone": "054 - 7400740",
-            "text": "מעוניין / מעוניינת\nבעבודה משותפת?\nנשמח להיות בקשר"
         },
-        "navigation": [
-            {
-                "title": "אודות",
-                "href": "about"
-            },
-            {
-                "title": "ניהול משברים",
-                "href": "crises"
-            },
-            {
-                "title": "ניהול מאבקים",
-                "href": "conflicts"
-            },
-            {
-                "title": "לקוחות",
-                "href": "clients"
-            },
-            {
-                "title": "פרסומים",
-                "href": "publicises"
-            },
-            {
-                "title": "צור קשר",
-                "href": "contact"
-            }
-        ]
     },
 
     "english": {
@@ -436,11 +409,14 @@ const raw_data = {
                     }
                 ]
             }
-        ]
+        ],
+        "contact": {
+            "title": "Contact Us",
+            "phone": "054 - 7400740",
+        },
     }
 }
 
-// hebrew or english
 const LANGUAGE = "hebrew";
 const data = LANGUAGE === 'hebrew' ? raw_data.hebrew : raw_data.english;
 
@@ -527,41 +503,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         if (section.articles) {
-            // const Article = (args: Article) => {
-            //         const getLogo = (link: string) => {
-            //             if (link.includes("ynet"))
-            //                 return "./images/ynet.png"
-            //
-            //             if (link.includes("themarker"))
-            //                 return "./images/themarker.png"
-            //
-            //             if (link.includes("mako"))
-            //                 return "https://play-lh.googleusercontent.com/RV67cORBjAWcGLrqCUg3npkKrfjs24tIDSvQWHgmFQ9PDiNmkyxk5O4Rw6bwYJOMEopL=w480-h960-rw"
-            //
-            //             if (link.includes("walla"))
-            //                 return "./images/walla.png"
-            //
-            //             if (link.includes("globes"))
-            //                 return "./images/globes.png"
-            //
-            //             if (link.includes("calcalist"))
-            //                 return "./images/calcalist.png"
-            //
-            //             if (link.includes("maariv"))
-            //                 return "https://play-lh.googleusercontent.com/oeTE8Q1DH2Vc6jXtrT3ZbPkiES0Zzcd8GXCcIwbPNvplgbLCn1pgWC_geusfqG3UvJYa"
-            //
-            //             return "https://cdn-icons-png.flaticon.com/512/3593/3593455.png"
-            //         }
-            //
-            //         return <div onClick={() => window.open(args.link, "_blank")}>
-            //             <div>
-            //                 <img src={getLogo(args.link)} alt={"לוגו"}/>
-            //                 <b>{args.title}</b>
-            //             </div>
-            //             <span>{args.content}</span>
-            //         </div>
-            //     }
-
             const articlesContainer = document.createElement('div');
             articlesContainer.classList.add('articles-container');
 
@@ -609,10 +550,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <img src="assets/email.svg" alt=""/>
                 <span>shalevp@bezeqint.net</span>   
             </div>   
-        </div>
- `;
-
-
+        </div>`;
 });
 
 const setBackgroundColor = (color) => {
@@ -648,9 +586,4 @@ const scrollToSection = (section) => {
 }
 
 
-// if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)
-//     setBackgroundColor('dark');
-//
-// else
-//     setBackgroundColor('light');
 setBackgroundColor('light');
