@@ -46,6 +46,7 @@ code {
 * {
     box-sizing: border-box;
     transition: 0.05s ease-in-out;
+    scrollbar-width: none;
 }
 
 h1, h2, h3, h4, h5, h6, span {
@@ -138,11 +139,11 @@ button {
 .navigation {
     display: flex;
     position: fixed;
-    margin-right: 10px;
+    margin-right: 15px;
     align-items: flex-start;
     flex-direction: column;
     direction: var(--direction);
-    margin-top: 50px;
+    margin-top: 40px;
     cursor: pointer;
     width: 10%;
     gap: 5px;
@@ -237,9 +238,9 @@ button {
 .page-container {
     display: flex;
     flex-direction: column;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
     align-items: center;
-    margin-inline: calc(10% + 10px);
+    margin-inline: calc(10% + 15px);
 }
 
 .Title {
@@ -287,6 +288,7 @@ button {
     .page-container {
         width: 95%;
         margin-inline: auto;
+        margin-bottom: 10px;
     }
 
     .section, .contact {

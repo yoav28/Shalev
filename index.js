@@ -645,12 +645,14 @@ const setBackgroundColor = (color) => {
 
 }
 
-setBackgroundColor('light');
-
-
-
-
 const scrollToSection = (section) => {
     const element = document.getElementById(`section-${section}`);
     element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 }
+
+
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)
+    setBackgroundColor('dark');
+
+else
+    setBackgroundColor('light');
