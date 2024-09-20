@@ -10,6 +10,7 @@
     --background-color-lighter: #000;
     --background-color-lightest: #000;
     --background-color-darkest: #000;
+    --logo-background: #000;
 
     --direction: rtl;
 
@@ -188,7 +189,7 @@ button {
     margin-top: 5px;
     margin-bottom: 10px;
     box-sizing: content-box;
-    background: #edf0f5;
+    background: var(--logo-background);
     border-radius: 5px;
     margin-right: -7px;
     padding: 5px;
@@ -233,6 +234,8 @@ button {
 
 .logo-mobile {
     display: none;
+    background: var(--logo-background);
+    border-radius: 5px;
 }
 
 .page-container {

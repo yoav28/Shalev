@@ -637,11 +637,8 @@ const setBackgroundColor = (color) => {
     document.documentElement.style.setProperty("--dynamic-color-lightest", `rgb(${255 - r + factor * 2.5}, ${255 - g + factor * 2.5}, ${255 - b + factor * 2.5})`);
     document.documentElement.style.setProperty("--dynamic-color-darkest", `rgb(${255 - r - factor * 2}, ${255 - g - factor * 2}, ${255 - b - factor * 2})`);
 
-    if (LANGUAGE === 'hebrew')
-        document.documentElement.style.setProperty("--direction", 'rtl');
-
-    else
-        document.documentElement.style.setProperty("--direction", 'ltr');
+    document.documentElement.style.setProperty("--logo-background", color === 'dark' ? `rgb(${255 - r}, ${255 - g}, ${255 - b})` : 'none');
+    document.documentElement.style.setProperty("--direction", LANGUAGE === 'hebrew' ? 'rtl' : 'ltr');
 
 }
 
@@ -651,8 +648,9 @@ const scrollToSection = (section) => {
 }
 
 
-if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)
-    setBackgroundColor('dark');
-
-else
-    setBackgroundColor('light');
+// if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)
+//     setBackgroundColor('dark');
+//
+// else
+//     setBackgroundColor('light');
+setBackgroundColor('light');
