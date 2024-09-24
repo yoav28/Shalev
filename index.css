@@ -228,7 +228,6 @@ button {
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    border-bottom: 1px solid;
     width: 100% !important;
     scroll-snap-align: start;
     color: var(--dynamic-color);
@@ -296,41 +295,46 @@ button {
     width: 100%;
 }
 
+
+/* ----------- Special Colors ----------- */
+
 .page-container > div:nth-of-type(2) {
-    background: rgba(37, 207, 255, 0.57);
+    background: rgba(160, 242, 255, 1);
 }
 
 .page-container > div:nth-of-type(3) {
-    background: rgba(0, 234, 234, 0.53);
+    background: rgba(150, 232, 255, 1);
 }
 
 .page-container > div:nth-of-type(4) {
-    background: rgba(16, 210, 187, 0.44);
+    background: rgba(140, 222, 251, 1);
 }
 
 .page-container > div:nth-of-type(5) {
-    background: rgba(0, 208, 208, 0.66);
+    background: rgba(130, 212, 241, 1);
 }
 
 .page-container > div:nth-of-type(6) {
-    background: #86c9ff;
+    background: rgb(106, 186, 215);
 }
 
 .page-container > div:nth-of-type(7) {
-    background: #d8dcff;
+    background: rgb(82, 170, 203);
 }
 
 .page-container > div:nth-of-type(8) {
-    background: #daecf8;
+    background: rgb(64, 167, 203);
 }
 
 .page-container > div:nth-of-type(9) {
-    background: #e9fffd;
+    background: rgb(29, 154, 197);
 }
 
 .page-container > div:nth-of-type(10) {
-    background: #ddf8ff;
+    background: rgb(24, 172, 231);
 }
+
+/* --------------------------------------- */
 
 
 @media (max-width: 1000px) {
@@ -345,7 +349,7 @@ button {
 
     .section-special {
         margin-bottom: auto;
-        margin-top: 10px;
+        margin-top: 40px !important;
     }
 
     .main-title {
@@ -372,9 +376,9 @@ button {
         position: absolute;
         display: block;
         z-index: 10;
-        height: 35px;
-        right: 3px;
-        top: 3px;
+        height: 40px;
+        right: 10px;
+        top: 10px;
     }
 }
 
@@ -414,7 +418,7 @@ button {
 
 @media (max-width: 1000px) {
     .crises-container {
-        gap: 12px;
+        gap: 15px;
         margin-top: 15px;
     }
 
@@ -432,7 +436,7 @@ button {
     }
 
     .crises-container > div img {
-        width: 13px;
+        width: 15px;
     }
 }
 
@@ -479,7 +483,7 @@ button {
         display: flex;
         flex-direction: column;
         margin-top: 8px;
-        gap: 8px;
+        gap: 15px;
     }
 
     .clients-container > div {

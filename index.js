@@ -453,9 +453,7 @@ document.addEventListener('DOMContentLoaded', () => {
     data.sections.forEach((section) => {
         const sectionElement = document.createElement('div');
 
-        if (section.crises || section.clients || section.articles || section.title === "אודות")
-            sectionElement.classList.add('section-special');
-
+        sectionElement.classList.add('section-special');
         sectionElement.classList.add('section');
         sectionElement.id = `section-${section.href}`;
 
@@ -538,7 +536,6 @@ document.addEventListener('DOMContentLoaded', () => {
         content.appendChild(sectionElement);
         sections.appendChild(content);
     });
-
 
     const contact = document.createElement('div');
     contact.classList.add('section');
