@@ -411,14 +411,24 @@ button {
 @media (max-width: 1000px) {
     .crises-container {
         gap: 12px;
+        margin-top: 15px;
     }
 
     .crises-container > div {
         width: 100%;
+        gap: 8px;
+    }
+
+    .crises-container > div > div {
+        gap: 5px;
     }
 
     .crises-container span, .crises-container b {
-        font-size: 15px;
+        font-size: 14.5px;
+    }
+
+    .crises-container > div img {
+        width: 14px;
     }
 }
 
@@ -584,16 +594,21 @@ button {
 
 @media (max-width: 1000px) {
     .articles-container {
-        margin-top: 40px;
+        margin-top: 20px;
         gap: 0;
     }
 
     .articles-container > div {
         width: 100%;
+        margin-top: -8px;
     }
 
     .articles-container span {
         font-size: 0;
+    }
+
+    .articles-container b {
+        font-size: 15px;
     }
 }
 
