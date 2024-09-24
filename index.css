@@ -606,7 +606,8 @@ button {
 
     .articles-container > div {
         width: 100%;
-        margin-top: -12px;
+        padding: 1px;
+        margin-top: -5px;
     }
 
     .articles-container span {
@@ -618,7 +619,7 @@ button {
     }
 
     .articles-container b {
-        font-size: 15px;
+        font-size: 14px;
     }
 }
 
