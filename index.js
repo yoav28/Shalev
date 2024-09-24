@@ -605,7 +605,8 @@ const scrollToSection = (section) => {
 }
 
 const scrollToTop = () => {
-    window.scrollTo({top: 0, behavior: 'smooth'});
+    const element = document.getElementById('page-top');
+    element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 }
 
 setBackgroundColor('light');

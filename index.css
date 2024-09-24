@@ -253,8 +253,6 @@ button {
 
 .logo-mobile {
     display: none;
-    background: var(--logo-background);
-    border-radius: 5px;
 }
 
 .Title {
@@ -373,7 +371,7 @@ button {
         box-sizing: content-box;
         position: absolute;
         display: block;
-        z-index: 1;
+        z-index: 10;
         height: 35px;
         right: 3px;
         top: 3px;
