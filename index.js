@@ -452,10 +452,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     data.sections.forEach((section) => {
         const sectionElement = document.createElement('div');
+
+        if (section.crises || section.clients || section.articles || section.title === "אודות")
+            sectionElement.classList.add('section-special');
+
         sectionElement.classList.add('section');
         sectionElement.id = `section-${section.href}`;
-
-        const special = section.clients || section.articles;
 
         sectionElement.innerHTML = `
             <div class="Title">
@@ -463,7 +465,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <h4>${section.title}</h4>
             </div>`;
 
-        if (special) sectionElement.innerHTML += `<span class="has-block">${section.text}</span>`;
+        if (section.clients || section.articles) sectionElement.innerHTML += `<span class="has-block">${section.text}</span>`;
         else sectionElement.innerHTML += `<span>${section.text}</span>`;
 
 
