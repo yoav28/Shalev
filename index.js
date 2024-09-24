@@ -167,11 +167,6 @@ const raw_data = {
                         "content": "הטעויות בגלל העומס, הנזיפות על זה שאין חולים במסדרון, המנהלים שחיים בפחד, הקשיש שימות כי אין ידיים לטפל בו. מאחורי חומת השתיקה: העדויות של הרופאים שחוששים לדבר על מה שבאמת קורה בבתי החולים"
                     },
                     {
-                        "link": "https://news.walla.co.il/item/3355123",
-                        "title": "אחרי השבחים והמטסים, המערכת שוב זונחת את הרופאים",
-                        "content": "הרעיפו עלינו מחמאות, הודו לנו בשלטי החוצות ובמטסים ביום העצמאות, מתנדבים הביאו לנו משלוחי מזון טעימים ורצו רק לפנק אותנו. חשנו פתאום אהודים ומקובלים, והנה זה מסתיים. סגירת המחלקות הייעודיות לחולי הקורונה, והחזרה לשגרת העבודה במחלקות הפנימיות, היא נחיתה כואבת לקרקע המציאות הקשה והמתסכלת"
-                    },
-                    {
                         "link": "https://www.calcalist.co.il/local/articles/0,7340,L-3785411,00.html",
                         "title": "סימון המזון: דרושה השלמת הרפורמה",
                         "content": "משרד הבריאות, שעושה בינתיים עבודה מצוינת, צריך לתקן פה ושם עיוותים, לפעול להפעלתה גם בבתי קפה ובמסעדות ולהשלים את את הצעדים החוקיים כדי להגן על הילדים מפני מזון לא בריא"
@@ -182,9 +177,9 @@ const raw_data = {
                         "content": "מנהלי המחלקות הפנימיות נאבקים במשבר במערכת הבריאות, אבל חלק מבתי חולים מונעים מהם להתראיין ולא מאפשרים כניסת מצלמות. למה?"
                     },
                     {
-                        "link": "https://www.globes.co.il/news/article.aspx?did=1000537253",
-                        "title": "האגו של היחצ\"ן",
-                        "content": "חיילים אלמונים נלחמים לצד היחצ\"נים של המדינה: מוטי שרף, רני רהב ואייל ארד"
+                        "link": "https://www.themarker.com/opinion/2020-04-21/ty-article/.premium/0000017f-e0f6-d75c-a7ff-fcffd0fe0000",
+                        "title": "האם הממשלה הבינה כבר את החשיבות של מערכת הבריאות?",
+                        "content": "הרופאים, ששמעו בעבר שוב ושוב, על קשיי תקציב, מגלים כי כשהמדינה רוצה וחייבת - נמצאים התקציבים, תהליכים מתקדמים מהר ונוצרות בשטח עובדות חדשות"
                     },
                     {
                         "link": "https://www.maariv.co.il/journalists/opinions/Article-870048",
@@ -192,14 +187,19 @@ const raw_data = {
                         "content": "המאבק לקיצור התורנויות של המתמחים פוגש מערכת בריאות שחוקה, שנמצאת מעבר לקצה. אלא שהיה לנו עשור להיערך לכך ולהשקיע בזה חשיבה ובזבזנו אותו"
                     },
                     {
-                        "link": "https://www.themarker.com/opinion/2020-04-21/ty-article/.premium/0000017f-e0f6-d75c-a7ff-fcffd0fe0000",
-                        "title": "האם הממשלה הבינה כבר את החשיבות של מערכת הבריאות?",
-                        "content": "הרופאים, ששמעו בעבר שוב ושוב, על קשיי תקציב, מגלים כי כשהמדינה רוצה וחייבת - נמצאים התקציבים, תהליכים מתקדמים מהר ונוצרות בשטח עובדות חדשות"
+                        "link": "https://www.mako.co.il/health-illnesses-and-medicines/illnesses/Article-ccdf2a1634e5d61027.htm",
+                        "title": "האם אפשר למנוע דמנציה?",
+                        "content": "1 מכל 2 נשים ו-1 מכל 3 גברים ילקו בשבץ מוח ו/או דמנציה במהלך חייהם. ראש האיגוד הנוירולוגי בישראל: \"אפשר למנוע, או לכל הפחות, לדחות שליש מנטל תחלואת הדמנציה בארץ\". לרגל חודש המודעות בעולם - קבלו כמה עובדות ומספרים על המחלה"
                     },
                     {
                         "link": "https://www.ynet.co.il/health/article/BJRINSLuu",
                         "title": "אחרי הקורונה: איך זה שאף אחד לא רוצה את משרד הבריאות?",
-                        "content": "מחסור במיטות אשפוז, תורנויות של 26 שעות ברצף ותקנים חסרים לרופאים הם רק חלק מבעיותיה של מערכת הבריאות, שרק מתחילה להתאושש משנת הקורונה העמוסה. אבל בניגוד לדרישת תיקי האוצר, הביטחון, המשפטים והחינוך, שהם סחורה חמה עבור הפוליטיקאים, אף אחד לא רוצה את משרד הבריאות, זאת בשעה שנדרשת לו תוספת של כ-10 מיליארד שקלים לסגירת הפערים מול מדינות ה-OECD ולהבטחת יציבות המשך הטיפול באזרחים"
+                        "content": "מחסור במיטות אשפוז, תורנויות של 26 שעות ברצף ותקנים חסרים לרופאים הם רק חלק מבעיותיה של מערכת הבריאות, שרק מתחילה להתאושש משנת הקורונה העמוסה. אבל בניגוד לדרישת תיקי האוצר, הביטחון, המשפטים והחינוך, שהם סחורה חמה עבור הפוליטיקאים, אף אחד לא רוצה את משרד הבריאות, זאת בשעה שנדרשת לו תוספת של כ-10 מיליארד שקלים לסגירת..."
+                    },
+                    {
+                        "link": "https://news.walla.co.il/item/3355123",
+                        "title": "אחרי השבחים והמטסים, המערכת שוב זונחת את הרופאים",
+                        "content": "הרעיפו עלינו מחמאות, הודו לנו בשלטי החוצות ובמטסים ביום העצמאות, מתנדבים הביאו לנו משלוחי מזון טעימים ורצו רק לפנק אותנו. חשנו פתאום אהודים ומקובלים, והנה זה מסתיים. סגירת המחלקות הייעודיות לחולי הקורונה, והחזרה לשגרת העבודה במחלקות הפנימיות, היא נחיתה כואבת לקרקע המציאות הקשה והמתסכלת"
                     },
                     {
                         "link": "https://www.calcalist.co.il/local/articles/0,7340,L-3846811,00.html",
@@ -207,10 +207,10 @@ const raw_data = {
                         "content": "ביום ראשון הקרוב תפרוץ שביתת עובדי המעבדות הציבוריות, והארץ די שותקת. משמעות השביתה היא לא רק פגיעה במאמצי המאבק בקורונה; איך אפשר לשחרר תינוקות יילודים מבתי החולים, ללא בדיקות דם ראשוניות? או לבצע טיפולים רפואיים שוטפים? ייתכן שהרקע לאדישות היא המחשבה השגויה ש\"זה לא יקרה\". אם כן, זו טעות"
                     },
                     {
-                        "link": "https://www.mako.co.il/health-illnesses-and-medicines/illnesses/Article-ccdf2a1634e5d61027.htm",
-                        "title": "האם אפשר למנוע דמנציה?",
-                        "content": "1 מכל 2 נשים ו-1 מכל 3 גברים ילקו בשבץ מוח ו/או דמנציה במהלך חייהם. ראש האיגוד הנוירולוגי בישראל: \"אפשר למנוע, או לכל הפחות, לדחות שליש מנטל תחלואת הדמנציה בארץ\". לרגל חודש המודעות בעולם - קבלו כמה עובדות ומספרים על המחלה"
-                    }
+                        "link": "https://www.globes.co.il/news/article.aspx?did=1000537253",
+                        "title": "האגו של היחצ\"ן",
+                        "content": "חיילים אלמונים נלחמים לצד היחצ\"נים של המדינה: מוטי שרף, רני רהב ואייל ארד"
+                    },
                 ],
                 "href": "publicises"
             }
@@ -448,18 +448,24 @@ const getLogo = (link) => {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    const sections = document.getElementById('sections');
+    const sections = document.getElementById('page-container');
 
     data.sections.forEach((section) => {
         const sectionElement = document.createElement('div');
         sectionElement.classList.add('section');
         sectionElement.id = `section-${section.href}`;
+
+        const special = section.clients || section.articles;
+
         sectionElement.innerHTML = `
             <div class="Title">
                 <span>#</span>
                 <h4>${section.title}</h4>
-            </div>
-            <span>${section.text}</span>`;
+            </div>`;
+
+        if (special) sectionElement.innerHTML += `<span class="has-block">${section.text}</span>`;
+        else sectionElement.innerHTML += `<span>${section.text}</span>`;
+
 
         if (section.crises) {
             const crisesContainer = document.createElement('div');
@@ -514,7 +520,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <b>${article.title}</b>
                     </div>
                     <span>${article.content}</span>
-                `;
+                `; //
                 articleElement.classList.add('hoberable');
                 articleElement.addEventListener('click', () => window.open(article.link, "_blank"));
                 articlesContainer.appendChild(articleElement);
@@ -523,34 +529,45 @@ document.addEventListener('DOMContentLoaded', () => {
             sectionElement.appendChild(articlesContainer);
         }
 
-        sections.appendChild(sectionElement);
+        // create div with class Content and add it to the section
+        const content = document.createElement('div');
+        content.classList.add('Content');
+
+        content.appendChild(sectionElement);
+        sections.appendChild(content);
     });
 
 
-    const contact = document.getElementById('section-contact');
-
+    const contact = document.createElement('div');
+    contact.classList.add('section');
+    contact.id = 'section-contact';
     contact.innerHTML = `
         <div class="Title">
-            <span>#</span>
             <h4>${data.contact.title}</h4>
         </div>
-        
+
         <div class="contactable">
             <div>
                 <img src="assets/phone.svg" alt=""/>
                 <span>${data.contact.phone}</span>
             </div>
-            
+
             <div>
                 <img src="assets/email.svg" alt=""/>
                 <span>shalevpr@gmail.com</span>
             </div>
-                
+
             <div>
                 <img src="assets/email.svg" alt=""/>
                 <span>shalevp@bezeqint.net</span>   
             </div>   
         </div>`;
+
+    const content = document.createElement('div');
+    content.classList.add('Content');
+    content.appendChild(contact);
+    sections.appendChild(content);
+
 });
 
 const setBackgroundColor = (color) => {
