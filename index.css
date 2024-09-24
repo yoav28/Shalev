@@ -469,30 +469,35 @@ button {
     cursor: pointer;
 }
 
+
 @media (max-width: 1000px) {
     .clients-container {
         display: flex;
         flex-direction: column;
-        margin-top: 10px;
-        gap: 15px;
+        margin-top: 8px;
+        gap: 8px;
     }
 
     .clients-container > div {
         display: flex;
         align-items: center;
         flex-direction: row-reverse;
-        justify-content: flex-end;
+        justify-content: flex-start;
         gap: 5px;
     }
 
     .clients-container > div > div {
-        margin-right: auto;
-        margin-left: 10px;
-        width: 55px;
+        height: 45px;
+        width: 60px;
+
+        img {
+            height: 100%;
+        }
     }
 
     .clients-container > div span {
-        font-size: 17px;
+        margin-left: auto;
+        font-size: 15px;
         width: 70%;
     }
 }
