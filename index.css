@@ -416,11 +416,11 @@ button {
 
     .crises-container > div {
         width: 100%;
-        gap: 8px;
+        gap: 7px;
     }
 
     .crises-container > div > div {
-        gap: 5px;
+        gap: 3px;
     }
 
     .crises-container span, .crises-container b {
@@ -428,7 +428,7 @@ button {
     }
 
     .crises-container > div img {
-        width: 14px;
+        width: 13px;
     }
 }
 
@@ -483,6 +483,7 @@ button {
         align-items: center;
         flex-direction: row-reverse;
         justify-content: flex-start;
+        min-height: 0;
         gap: 5px;
     }
 
